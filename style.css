@@ -1,0 +1,385 @@
+body {
+    background-color: #D4A76A;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 960px;
+    
+    
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #554400;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px 0px 138px;
+    overflow: hidden;
+    background-color: #554400;
+}
+
+li {
+    float: left;
+}
+
+li:hover {
+    background-color: black;
+}
+
+li a, .dropdown-btn {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 18px 22px;
+    text-decoration: none;
+}
+
+li a:hover .dropdown:hover .dropdown-btn {
+    background-color: #f5f5f5;
+    color: #1ebb90;
+    
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f5f5f5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    
+}
+
+.dropdown-menu a {
+    color: grey;
+    padding 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-menu a:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+
+
+.navlogo {
+    position: fixed;
+        
+}
+
+/* Big M */
+.logo {
+    margin: 0;
+    padding: 0;
+}
+
+/* Small M */
+.smalllogo {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: -8px;
+    top: 1px;
+}
+
+.smalllogo2 {
+    margin: 0px 0px 0px -12px;
+    padding: 0;
+    position: relative;
+    top: 1px;
+    
+}
+
+.menuicon {
+    display: none;
+}
+
+.clear {
+    clear:both;
+}
+
+p {
+    margin: .5em;
+    line-height: 1.3em;
+    
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 2px 0px 0px 0px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+img.foodpic {
+    height: auto;
+    width: 325px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: left;
+}
+
+.ingredients {
+    width: 290px;
+    margin: 0;
+    padding: 5px 10px;
+    display: inline-block;
+    color: white;
+    text-align: center;    
+}
+
+.tyingredients {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    float: left;
+    clear: both;
+    position: relative;
+    left: 95px;
+   
+}
+
+.tyingredients-2 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    float: left;
+    clear: both;
+}
+
+.method {
+    width: 290px;
+    padding: 5px 10px;
+    display: inline-block;
+    color: white;
+    float: right;
+}
+
+
+
+.tymethod {
+    margin: 0;
+    padding: 0px 10px 0px 10px;
+    width: 290px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    
+}
+
+.tymethod-2 {
+    margin: 0;
+    padding: 0px 10px 0px 10px;
+    width: 290px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -60px
+    
+    
+    
+}
+
+
+.tymethodkd {
+    margin: 0;
+    padding: 0px 12px;
+    width: 609px;
+    display: inline-block;
+    color: white;
+    text-align: justify;
+   
+}
+
+.recipe-1 {
+    width: 100%;
+    height: auto;
+    background-color: #3C3176;
+    margin: 70px 0px 0px 0px;
+    padding: 0;
+    display: block;
+    position: relative;
+    
+}
+
+.recipe-2 {
+    width: 100%;
+    height: auto;
+    background-color: #236863;
+    padding: 0;
+    margin: 0;
+    display: block;
+    
+}
+
+.recipe-3 {
+    width: 100%;
+    height: auto;
+    background-color: #AA6A39;
+    padding: 0;
+    margin: 0;
+    display: block;
+    
+}
+
+.recipe-4 {
+    width: 100%;
+    height: 210px;
+    background-color: coral;
+    padding: 0;
+    margin: 0;
+    display: block;
+    
+}
+
+.recipe-5 {
+    width: 100%;
+    height: 210px;
+    background-color: lawngreen;
+    padding: 0;
+    margin: 0;
+    display: block;
+    
+}
+
+
+
+ @media screen and (max-width: 960px) {
+    #container {
+        width: 100%;
+        background-color: black;
+     }
+    
+    nav {
+        text-align:center;
+        width:100%;
+        display: none;
+    }
+    nav a {
+        display: none;
+        border-top: black solid 1px;
+        
+    }
+    nav a:hover {
+         background-color: black;
+     }
+    nav li {
+        float: none;
+        display: none;
+       
+    }
+    .navlogo {
+         display: none;
+    }
+    
+   
+    .recipe-1 {width: 100%;}
+    .recipe-2 {width: 100%;}
+    .recipe-3 {width: 100%;}
+    .recipe-4 {width: 100%;}
+    .recipe-5 {width: 100%;}
+     
+    img.foodpic {
+        width: 100%;
+        display: block;
+       
+     }
+    .ingredients {
+        width: 96%;
+     }
+    .method {
+        width: 96%;
+        text-align: center;
+    }
+    .tyingredients {
+        width:100%;
+        position:static;
+        text-align:center;    
+    }
+    .tymethod {
+        width: 96%;
+        text-align:justify;
+        padding: 0 10px;
+    }
+    .tymethod-2 {
+        position:static;
+        width:96%;
+        text-align:justify;
+        padding: 0 10px;
+    }
+    .tyingredients-2 {
+        width:100%;
+        position:static;
+        text-align:center;
+    }
+    .tymethodkd {
+        position:static;
+        width:96%;
+        text-align:justify;
+    }
+      
+     
+     
+}
+
+ @media screen and (max-width: 640px) {
+    
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
