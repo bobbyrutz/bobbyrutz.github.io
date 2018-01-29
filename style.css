@@ -1,0 +1,150 @@
+
+
+body {
+  background-color: #6E6673;
+  height: 100%;
+}
+
+.container {
+  margin: 0, auto;
+  padding: 20px;
+  /* border: 5px solid red; */
+  height: 100%;
+}
+
+#noteWarning {
+  margin: 20px;
+}
+
+.notebox {
+  text-align: center;
+  margin: 0, auto;
+  padding: 20px;
+  /* border: 5px solid blue; */
+
+}
+
+.key {
+  background-color: #AA3939;
+  width: 150px;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  text-align: center;
+  margin: 10px;
+  border: none;
+}
+
+.key:hover {
+  background-color: #D46A6A;
+  cursor: pointer;
+  color: black;
+  border: none;
+  padding: 5px 15px;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition: all .1s ease-in;
+}
+
+.key:active {
+  background-color: #D46A6A;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+
+.startbutton {
+  background-color: #AA3939;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  text-align: center;
+  margin: 10px;
+}
+
+.startbutton:hover {
+  background-color: #D46A6A;
+  cursor: pointer;
+  color: black;
+  border: none;
+  padding: 15px 40px;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition: all .1s ease-in;
+}
+
+.startbutton:active {
+  background-color: #D46A6A;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  text-align: center;
+  margin: 10px;
+}
+
+.startbutton:disabled {
+  background-color: #D46A6A;
+  color: black;
+  border: none;
+  padding: 15px 40px;
+  text-align: center;
+  margin: 10px;
+  cursor: default;
+  box-shadow: none;
+}
+
+.stopbutton {
+  background-color: #AA3939;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  text-align: center;
+  margin: 10px;
+}
+.stopbutton:hover {
+  background-color: #D46A6A;
+  cursor: pointer;
+  color: black;
+  border: none;
+  padding: 15px 40px;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition: all .1s ease-in;
+}
+
+.stopbutton:active {
+  background-color: #D46A6A;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  text-align: center;
+  margin: 10px;
+}
+
+#note {
+  font-size: 100px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+#mode {
+  margin: 0 auto;
+  width: 750px;
+  font-size: 50px;
+  /* border: 5px solid black; */
+  text-align: justify-all;
+}
+
+#metronome {
+  font-size: 50px;
+}
+
+/* .modes {
+  border: 3px solid green;
+  text-align: justify;
+} */
