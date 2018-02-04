@@ -1,0 +1,257 @@
+
+
+body {
+  background-color: #6E6673;
+  height: 100%;
+}
+
+.smallHr {
+  width: 37%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+hr {
+  width: 75%;
+  text-align: center;
+}
+
+.container {
+  margin: 0, auto;
+  padding: 20px;
+  /* border: 5px solid red; */
+  height: 100%;
+}
+
+#noteWarning {
+  margin: 20px;
+}
+
+.notebox {
+  text-align: center;
+  margin: 0, auto;
+  padding: 20px;
+  /* border: 5px solid blue; */
+  height: 960px;
+
+}
+
+.keyGenTitle {
+  margin-top: 0;
+}
+
+.key {
+  background-color: #AA3939;
+  border: .03em solid #801616;
+  width: 150px;
+  height: 75px;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  margin: 10px;
+  transition: all 1s ease;
+
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.key:hover {
+  background-color: #D46A6A;
+  cursor: pointer;
+  color: black;
+  padding: 5px 15px;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition: all .15s ease-in;
+  border: none;
+}
+
+.key:active {
+  background-color: #D46A6A;
+  color: white;
+  border: .03em solid #D46A6A;
+  padding: 5px 15px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: none;
+  outline: none;
+}
+
+.key:disabled {
+  background-color: #D46A6A;
+  color: black;
+  border: .03em solid #D46A6A;
+  padding: 5px 15px;
+  text-align: center;
+  margin: 10px;
+  cursor: default;
+  box-shadow: none;
+  transition: all 1s ease;
+}
+
+
+.startbutton {
+  background-color: #AA3939;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  text-align: center;
+  margin: 10px;
+}
+
+.startbutton:hover {
+  background-color: #D46A6A;
+  cursor: pointer;
+  color: black;
+  padding: 15px 40px;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition: all .15s ease-in;
+}
+
+.startbutton:active {
+  background-color: #D46A6A;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  text-align: center;
+  margin: 10px;
+}
+
+.startbutton:disabled {
+  background-color: #D46A6A;
+  color: black;
+  border: none;
+  padding: 15px 40px;
+  text-align: center;
+  margin: 10px;
+  cursor: default;
+  box-shadow: none;
+}
+
+.stopbutton {
+  background-color: #AA3939;
+  width: 150px;
+  height: 75px;
+  color: white;
+  border: .03em solid #801616;
+  padding: 15px 40px;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 10px;
+}
+.stopbutton:hover {
+  background-color: #D46A6A;
+  width: 150px;
+  cursor: pointer;
+  color: black;
+  border: .03em solid #A46A6A;
+  padding: 15px 40px;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition: all .15s ease-in;
+}
+
+.stopbutton:active {
+  background-color: #D46A6A;
+  width: 150px;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  text-align: center;
+  box-shadow: none;
+  margin: 10px;
+}
+
+.randombutton {
+  background-color: #AA3939;
+  width: 150px;
+  height: 75px;
+  color: white;
+  border: .03em solid #801616;
+  padding: 15px 40px;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 10px;
+  transition: all 1s ease;
+
+}
+
+.randombutton:hover {
+  background-color: #DA6A6A;
+  width: 150px;
+  cursor: pointer;
+  color: black;
+  border: .03em solid #DA6A6A;
+  padding: 15px 40px;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition: all .15s ease-in;
+}
+
+.randombutton:active {
+  background-color: #D46A6A;
+  width: 150px;
+  color: white;
+  border: .03em solid #D46A6A;
+  padding: 15px 40px;
+  text-align: center;
+  box-shadow: none;
+  margin: 10px;
+  transition: all 2s ease;
+
+}
+
+.randombutton:disabled {
+  background-color: #D46A6A;
+  color: black;
+  border: .03em solid #D46A6A;
+  padding: 15px 40px;
+  text-align: center;
+  margin: 10px;
+  cursor: default;
+  box-shadow: none;
+  transition: all 1s ease;
+
+}
+
+#note {
+  font-size: 100px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+#mode {
+  margin: 0 auto;
+  width: 750px;
+  font-size: 50px;
+  /* border: 5px solid black; */
+  text-align: center;
+}
+
+#metronome {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  display: none;
+}
+
+#noteList {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  padding: 10px;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+
+}
+/* .modes {
+  border: 3px solid green;
+  text-align: justify;
+} */
